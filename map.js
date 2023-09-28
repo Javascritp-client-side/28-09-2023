@@ -17,5 +17,5 @@ const mails = [
     }
   ]
 
-  let mail = mails.map((e) => 'LogID-'+e.id)
+  let mail = mails.map((e) => 'LogID-'+e.id).filter((e)=> e.includes('8'))
   console.log(mail)
