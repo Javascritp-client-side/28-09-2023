@@ -17,5 +17,5 @@ const mails = [
     }
   ]
 
-  let mail = mails.map((e) => e.sender.firstname + " Akkarawit")
+  let mail = mails.map((e) => 'LogID-'+e.id)
   console.log(mail)
